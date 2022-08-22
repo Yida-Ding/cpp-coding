@@ -23,3 +23,6 @@ int main()
     
     return 0;
 }
+
+int a=15;
+int b=20;
