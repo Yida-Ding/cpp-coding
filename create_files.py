@@ -18,8 +18,8 @@ def add_files(folder,idx1,idx2):
             cfile.close() 
 
 if __name__=="__main__":
-    # create_folder("Ch4",5)
-    add_files("Ch4",6,10)
+    # create_folder("Ch5",10)
+    add_files("Ch5",17,25)
 
 
 
