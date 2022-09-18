@@ -11,15 +11,15 @@ def create_folder(folder,Nfile):
         with open("%s/%s.cpp"%(folder,filename),'w') as cfile:
             cfile.close() 
 
-def add_files(folder,idx1,idx2):
+def add_files(folder,head,idx1,idx2):
     for i in range(idx1,idx2+1):
-        filename=folder+'_Task%d'%i
+        filename=head+'_Task%d'%i
         with open("%s/%s.cpp"%(folder,filename),'w') as cfile:
             cfile.close() 
 
 if __name__=="__main__":
-    # create_folder("Ch5",10)
-    add_files("Ch5",17,25)
+    # create_folder("Ch6",10)
+    add_files("Ch6_Pointers","Ch6",23,28)
 
 
 

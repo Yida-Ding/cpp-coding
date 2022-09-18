@@ -13,7 +13,7 @@ void insertion_sort(int a[], int n)
     for (i=1;i<n;i++){
         key=a[i];
         j=i-1;
-        while (j>=0 && a[j]>key){
+        while (j>=0 && a[j]>key){ // use key instead of a[i] since line 17 will change a[i]
             a[j+1]=a[j];
             j-=1;
         }
